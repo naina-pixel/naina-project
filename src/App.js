@@ -1,25 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <h1 className="border rounded shadow-lg opacity-50 overflow-x-scroll cursor-pointer text-3xl font-bold underline" class="bg-blue-500 text-white p-4 m-2 w-1/2 text-lg font-bold italic text-cente" >
+      Hello world!
+    </h1>
+  )
 }
-
-export default App;
