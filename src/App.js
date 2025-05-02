@@ -3,6 +3,8 @@ import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, R
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from './components/Navbar'; // Importing your saved Navbar component
+import React from "react";
+import WeatherCard from "./components/WeatherCard";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -93,6 +95,9 @@ function App() {
             </div>
           </div>
         </section>
+        <div className="min-h-screen bg-gradient-to-br from-blue-900 to-purple-900 flex items-center justify-center p-4">
+      <WeatherCard city="Ludhiana" />
+    </div>
 
         {/* Activity Feed */}
         <section className="py-12" data-aos="fade-up">
